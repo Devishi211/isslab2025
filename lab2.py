@@ -58,3 +58,4 @@ if __name__ == "__main__":
     ciphertext = playfair_cipher(plaintext, key, encrypt=True)
     print("Ciphertext:", ciphertext)
     print("Decrypted:", playfair_cipher(ciphertext, key, encrypt=False))
+    #eof
