@@ -52,14 +52,12 @@ def rail_fence_decrypt(ciphertext, rails):
 
     return "".join(result)
 
-# Fixed input
-plaintext = "HELLO WORLD".replace(" ", "")  # Removing spaces
+#mainfunction
+plaintext = "HELLO WORLD".replace(" ", "") 
 rails = 3
 
-# Encryption
+
 ciphertext = rail_fence_encrypt(plaintext, rails)
 print("\nEncrypted Text:", ciphertext)
-
-# Decryption
 decrypted_text = rail_fence_decrypt(ciphertext, rails)
 print("Decrypted Text:", decrypted_text)
